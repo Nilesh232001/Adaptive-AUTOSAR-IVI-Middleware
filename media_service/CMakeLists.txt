@@ -10,10 +10,9 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/common/include
 )
 
-add_executable(media_service ${SOURCE_FILES})
+add_executable(media_service src/main.cpp)
 
-target_link_libraries(media_service
-    PRIVATE
-    common
-    vsomeip3
+target_link_libraries(media_service 
+PRIVATE common 
+pthread nlohmann_json::nlohmann_json
 )
