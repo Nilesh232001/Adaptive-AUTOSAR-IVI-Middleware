@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "name": "MediaService",
+      "type": "Media",
+      "endpoint": "tcp://localhost:5000"
+    },
+    {
+      "name": "NavigationService",
+      "type": "Navigation",
+      "endpoint": "tcp://localhost:5001"
+    },
+    {
+      "name": "ClimateService",
+      "type": "Climate",
+      "endpoint": "tcp://localhost:5002"
+    }
+  ]
+}

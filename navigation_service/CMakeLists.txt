@@ -1,4 +1,9 @@
-cmake_minimum_required(VERSION 3.13)
-project(Adaptive_IVI_Middleware)
+project(navigation_service)
+
 set(CMAKE_CXX_STANDARD 17)
-add_executable(main main.cpp)
+
+include_directories(${CMAKE_SOURCE_DIR}/common/include)
+
+add_executable(navigation_service src/main.cpp)
+
+target_link_libraries(navigation_service PRIVATE common)
