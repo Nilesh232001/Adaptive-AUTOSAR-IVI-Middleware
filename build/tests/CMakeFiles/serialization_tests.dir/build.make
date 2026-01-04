@@ -76,15 +76,15 @@ tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.obj: tests/CMak
 tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/tests/serialization_tests.cpp
 tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.obj: tests/CMakeFiles/serialization_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\tests && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.obj -MF CMakeFiles\serialization_tests.dir\serialization_tests.cpp.obj.d -o CMakeFiles\serialization_tests.dir\serialization_tests.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\tests\serialization_tests.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.obj -MF CMakeFiles\serialization_tests.dir\serialization_tests.cpp.obj.d -o CMakeFiles\serialization_tests.dir\serialization_tests.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\tests\serialization_tests.cpp
 
 tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/serialization_tests.dir/serialization_tests.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\tests && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\tests\serialization_tests.cpp > CMakeFiles\serialization_tests.dir\serialization_tests.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\tests\serialization_tests.cpp > CMakeFiles\serialization_tests.dir\serialization_tests.cpp.i
 
 tests/CMakeFiles/serialization_tests.dir/serialization_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serialization_tests.dir/serialization_tests.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\tests && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\tests\serialization_tests.cpp -o CMakeFiles\serialization_tests.dir\serialization_tests.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\tests\serialization_tests.cpp -o CMakeFiles\serialization_tests.dir\serialization_tests.cpp.s
 
 # Object files for target serialization_tests
 serialization_tests_OBJECTS = \

@@ -76,15 +76,15 @@ navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.obj: navigatio
 navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/navigation_service/src/main.cpp
 navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.obj: navigation_service/CMakeFiles/navigation_service.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\navigation_service && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.obj -MF CMakeFiles\navigation_service.dir\src\main.cpp.obj.d -o CMakeFiles\navigation_service.dir\src\main.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\navigation_service\src\main.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\navigation_service && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.obj -MF CMakeFiles\navigation_service.dir\src\main.cpp.obj.d -o CMakeFiles\navigation_service.dir\src\main.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\navigation_service\src\main.cpp
 
 navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/navigation_service.dir/src/main.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\navigation_service && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\navigation_service\src\main.cpp > CMakeFiles\navigation_service.dir\src\main.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\navigation_service && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\navigation_service\src\main.cpp > CMakeFiles\navigation_service.dir\src\main.cpp.i
 
 navigation_service/CMakeFiles/navigation_service.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/navigation_service.dir/src/main.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\navigation_service && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\navigation_service\src\main.cpp -o CMakeFiles\navigation_service.dir\src\main.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\navigation_service && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\navigation_service\src\main.cpp -o CMakeFiles\navigation_service.dir\src\main.cpp.s
 
 # Object files for target navigation_service
 navigation_service_OBJECTS = \

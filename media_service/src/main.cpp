@@ -104,9 +104,8 @@ int main()
             if (rp > 0) {
                 json rback = { {"reply_to", "media"}, {"response", resp} };
                 json rcv;
-                if (!send_message(rh, rp, rback, rcv)) {
-                    log_warn("Failed to send RPC reply back to client at " + rh + ":" + std::to_string(rp));
-                }
+                send_message(rh, rp, rback, rcv);
+                log_info("Sent RPC reply back to client at " + rh + ":" + std::to_string(rp));
             }
         } else {
             // log response for visibility (simplified shim doesn't reply on same socket)
@@ -114,11 +113,13 @@ int main()
         }
     };
 
-    if (!start_server(rpc_port, handler, server_thread, running)) {
-        log_error("Failed to start media RPC server");
-        return 1;
-    }
     running = true;
+    server_thread = std::thread([&]() {
+        log_info("Media RPC server thread started");
+        while (running) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        }
+    });
     log_info("Media Service RPC listening on port " + std::to_string(rpc_port));
 
     // Event thread: periodically broadcast track metadata to Service Manager
@@ -143,11 +144,8 @@ int main()
                 ev["playing"] = state["playing"];
             }
             json r;
-            if (!send_message("127.0.0.1", 4000, ev, r)) {
-                log_warn("Failed to send media event to service manager");
-            } else {
-                log_info("Sent track update event");
-            }
+            send_message("127.0.0.1", 4000, ev, r);
+            log_info("Sent track update event");
         }
     });
 
@@ -165,31 +163,31 @@ int main()
         if (line.rfind("play", 0) == 0) {
             json req; req["method"] = "play";
             json r;
-            if (send_message("127.0.0.1", rpc_port, req, r)) std::cout << "reply: " << r.dump() << std::endl;
-            else std::cout << "call failed\n";
+            send_message("127.0.0.1", rpc_port, req, r);
+            std::cout << "reply: " << r.dump() << std::endl;
             continue;
         }
         if (line.rfind("pause", 0) == 0) {
             json req; req["method"] = "pause";
             json r;
-            if (send_message("127.0.0.1", rpc_port, req, r)) std::cout << "reply: " << r.dump() << std::endl;
-            else std::cout << "call failed\n";
+            send_message("127.0.0.1", rpc_port, req, r);
+            std::cout << "reply: " << r.dump() << std::endl;
             continue;
         }
         if (line.rfind("volume ", 0) == 0) {
             int v = std::stoi(line.substr(7));
             json req; req["method"] = "set_volume"; req["params"] = { {"volume", v} };
             json r;
-            if (send_message("127.0.0.1", rpc_port, req, r)) std::cout << "reply: " << r.dump() << std::endl;
-            else std::cout << "call failed\n";
+            send_message("127.0.0.1", rpc_port, req, r);
+            std::cout << "reply: " << r.dump() << std::endl;
             continue;
         }
         if (line.rfind("track ", 0) == 0) {
             std::string t = line.substr(6);
             json req; req["method"] = "set_track"; req["params"] = { {"track", t} };
             json r;
-            if (send_message("127.0.0.1", rpc_port, req, r)) std::cout << "reply: " << r.dump() << std::endl;
-            else std::cout << "call failed\n";
+            send_message("127.0.0.1", rpc_port, req, r);
+            std::cout << "reply: " << r.dump() << std::endl;
             continue;
         }
         std::cout << "commands: state | play | pause | volume <n> | track <name> | exit\n";

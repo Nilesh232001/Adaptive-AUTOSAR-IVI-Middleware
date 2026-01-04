@@ -8,20 +8,21 @@ set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 # Add local include directories for nlohmann_json (header-only library)
-include_directories(${CMAKE_BINARY_DIR}/include)
+# Prefer the project's `include/` directory so builds work without vcpkg
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Find required packages
 find_package(nlohmann_json QUIET CONFIG)
 if(NOT nlohmann_json_FOUND)
     # nlohmann_json is header-only, try to find it in common include paths
     # or assume it's available as system headers
-    message(STATUS "nlohmann_json not found via find_package, using local headers from ${CMAKE_BINARY_DIR}/include")
+    message(STATUS "nlohmann_json not found via find_package, using local headers from ${CMAKE_SOURCE_DIR}/include")
     
     # Create an INTERFACE library for the header-only nlohmann_json
     if(NOT TARGET nlohmann_json::nlohmann_json)
         add_library(nlohmann_json INTERFACE)
         add_library(nlohmann_json::nlohmann_json ALIAS nlohmann_json)
-        target_include_directories(nlohmann_json INTERFACE ${CMAKE_BINARY_DIR}/include)
+        target_include_directories(nlohmann_json INTERFACE ${CMAKE_SOURCE_DIR}/include)
     endif()
 endif()
 find_package(Threads REQUIRED)

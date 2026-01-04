@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc libcommon.a CMakeFiles/common.dir/src/common.cpp.obj CMakeFiles/common.dir/src/logging.cpp.obj CMakeFiles/common.dir/src/persistence.cpp.obj CMakeFiles/common.dir/src/someip.cpp.obj CMakeFiles/common.dir/src/someip_shim.cpp.obj
-C:\MinGW\bin\ranlib.exe libcommon.a
+C:\msys64\ucrt64\bin\ar.exe qc libcommon.a CMakeFiles/common.dir/src/common.cpp.obj CMakeFiles/common.dir/src/logging.cpp.obj CMakeFiles/common.dir/src/persistence.cpp.obj CMakeFiles/common.dir/src/someip.cpp.obj CMakeFiles/common.dir/src/someip_shim.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libcommon.a

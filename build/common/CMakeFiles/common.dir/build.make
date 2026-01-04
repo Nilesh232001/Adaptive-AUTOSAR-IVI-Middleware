@@ -76,75 +76,75 @@ common/CMakeFiles/common.dir/src/common.cpp.obj: common/CMakeFiles/common.dir/in
 common/CMakeFiles/common.dir/src/common.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/common/src/common.cpp
 common/CMakeFiles/common.dir/src/common.cpp.obj: common/CMakeFiles/common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/src/common.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/common.cpp.obj -MF CMakeFiles\common.dir\src\common.cpp.obj.d -o CMakeFiles\common.dir\src\common.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\common.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/common.cpp.obj -MF CMakeFiles\common.dir\src\common.cpp.obj.d -o CMakeFiles\common.dir\src\common.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\common.cpp
 
 common/CMakeFiles/common.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/src/common.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\common.cpp > CMakeFiles\common.dir\src\common.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\common.cpp > CMakeFiles\common.dir\src\common.cpp.i
 
 common/CMakeFiles/common.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/src/common.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\common.cpp -o CMakeFiles\common.dir\src\common.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\common.cpp -o CMakeFiles\common.dir\src\common.cpp.s
 
 common/CMakeFiles/common.dir/src/logging.cpp.obj: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/src/logging.cpp.obj: common/CMakeFiles/common.dir/includes_CXX.rsp
 common/CMakeFiles/common.dir/src/logging.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/common/src/logging.cpp
 common/CMakeFiles/common.dir/src/logging.cpp.obj: common/CMakeFiles/common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/src/logging.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/logging.cpp.obj -MF CMakeFiles\common.dir\src\logging.cpp.obj.d -o CMakeFiles\common.dir\src\logging.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\logging.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/logging.cpp.obj -MF CMakeFiles\common.dir\src\logging.cpp.obj.d -o CMakeFiles\common.dir\src\logging.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\logging.cpp
 
 common/CMakeFiles/common.dir/src/logging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/src/logging.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\logging.cpp > CMakeFiles\common.dir\src\logging.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\logging.cpp > CMakeFiles\common.dir\src\logging.cpp.i
 
 common/CMakeFiles/common.dir/src/logging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/src/logging.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\logging.cpp -o CMakeFiles\common.dir\src\logging.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\logging.cpp -o CMakeFiles\common.dir\src\logging.cpp.s
 
 common/CMakeFiles/common.dir/src/persistence.cpp.obj: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/src/persistence.cpp.obj: common/CMakeFiles/common.dir/includes_CXX.rsp
 common/CMakeFiles/common.dir/src/persistence.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/common/src/persistence.cpp
 common/CMakeFiles/common.dir/src/persistence.cpp.obj: common/CMakeFiles/common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/src/persistence.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/persistence.cpp.obj -MF CMakeFiles\common.dir\src\persistence.cpp.obj.d -o CMakeFiles\common.dir\src\persistence.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\persistence.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/persistence.cpp.obj -MF CMakeFiles\common.dir\src\persistence.cpp.obj.d -o CMakeFiles\common.dir\src\persistence.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\persistence.cpp
 
 common/CMakeFiles/common.dir/src/persistence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/src/persistence.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\persistence.cpp > CMakeFiles\common.dir\src\persistence.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\persistence.cpp > CMakeFiles\common.dir\src\persistence.cpp.i
 
 common/CMakeFiles/common.dir/src/persistence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/src/persistence.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\persistence.cpp -o CMakeFiles\common.dir\src\persistence.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\persistence.cpp -o CMakeFiles\common.dir\src\persistence.cpp.s
 
 common/CMakeFiles/common.dir/src/someip.cpp.obj: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/src/someip.cpp.obj: common/CMakeFiles/common.dir/includes_CXX.rsp
 common/CMakeFiles/common.dir/src/someip.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/common/src/someip.cpp
 common/CMakeFiles/common.dir/src/someip.cpp.obj: common/CMakeFiles/common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/common.dir/src/someip.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/someip.cpp.obj -MF CMakeFiles\common.dir\src\someip.cpp.obj.d -o CMakeFiles\common.dir\src\someip.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/someip.cpp.obj -MF CMakeFiles\common.dir\src\someip.cpp.obj.d -o CMakeFiles\common.dir\src\someip.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip.cpp
 
 common/CMakeFiles/common.dir/src/someip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/src/someip.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip.cpp > CMakeFiles\common.dir\src\someip.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip.cpp > CMakeFiles\common.dir\src\someip.cpp.i
 
 common/CMakeFiles/common.dir/src/someip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/src/someip.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip.cpp -o CMakeFiles\common.dir\src\someip.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip.cpp -o CMakeFiles\common.dir\src\someip.cpp.s
 
 common/CMakeFiles/common.dir/src/someip_shim.cpp.obj: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/src/someip_shim.cpp.obj: common/CMakeFiles/common.dir/includes_CXX.rsp
 common/CMakeFiles/common.dir/src/someip_shim.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/common/src/someip_shim.cpp
 common/CMakeFiles/common.dir/src/someip_shim.cpp.obj: common/CMakeFiles/common.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object common/CMakeFiles/common.dir/src/someip_shim.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/someip_shim.cpp.obj -MF CMakeFiles\common.dir\src\someip_shim.cpp.obj.d -o CMakeFiles\common.dir\src\someip_shim.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip_shim.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/src/someip_shim.cpp.obj -MF CMakeFiles\common.dir\src\someip_shim.cpp.obj.d -o CMakeFiles\common.dir\src\someip_shim.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip_shim.cpp
 
 common/CMakeFiles/common.dir/src/someip_shim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/src/someip_shim.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip_shim.cpp > CMakeFiles\common.dir\src\someip_shim.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip_shim.cpp > CMakeFiles\common.dir\src\someip_shim.cpp.i
 
 common/CMakeFiles/common.dir/src/someip_shim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/src/someip_shim.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip_shim.cpp -o CMakeFiles\common.dir\src\someip_shim.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\common\src\someip_shim.cpp -o CMakeFiles\common.dir\src\someip_shim.cpp.s
 
 # Object files for target common
 common_OBJECTS = \

@@ -76,15 +76,15 @@ hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.obj: hmi_client/CMakeFiles/hmi
 hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.obj: C:/Users/91954/Downloads/Adaptive_IVI_Middleware/hmi_client/src/main.cpp
 hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.obj: hmi_client/CMakeFiles/hmi_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.obj"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\hmi_client && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.obj -MF CMakeFiles\hmi_client.dir\src\main.cpp.obj.d -o CMakeFiles\hmi_client.dir\src\main.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\hmi_client\src\main.cpp
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\hmi_client && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.obj -MF CMakeFiles\hmi_client.dir\src\main.cpp.obj.d -o CMakeFiles\hmi_client.dir\src\main.cpp.obj -c C:\Users\91954\Downloads\Adaptive_IVI_Middleware\hmi_client\src\main.cpp
 
 hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hmi_client.dir/src/main.cpp.i"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\hmi_client && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\hmi_client\src\main.cpp > CMakeFiles\hmi_client.dir\src\main.cpp.i
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\hmi_client && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\91954\Downloads\Adaptive_IVI_Middleware\hmi_client\src\main.cpp > CMakeFiles\hmi_client.dir\src\main.cpp.i
 
 hmi_client/CMakeFiles/hmi_client.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hmi_client.dir/src/main.cpp.s"
-	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\hmi_client && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\hmi_client\src\main.cpp -o CMakeFiles\hmi_client.dir\src\main.cpp.s
+	cd /d C:\Users\91954\Downloads\Adaptive_IVI_Middleware\build\hmi_client && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\91954\Downloads\Adaptive_IVI_Middleware\hmi_client\src\main.cpp -o CMakeFiles\hmi_client.dir\src\main.cpp.s
 
 # Object files for target hmi_client
 hmi_client_OBJECTS = \

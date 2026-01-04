@@ -22,4 +22,4 @@ target_include_directories(common PUBLIC
 )
 
 # Link required libraries (nlohmann_json is header-only, included via -I flags)
-target_link_libraries(common PUBLIC Threads::Threads)
+target_link_libraries(common PUBLIC Threads::Threads nlohmann_json::nlohmann_json)
