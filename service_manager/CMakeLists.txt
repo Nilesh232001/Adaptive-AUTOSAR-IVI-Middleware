@@ -1,20 +1,12 @@
-project(service_manager)
+project(service_manager LANGUAGES CXX)
 
-cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Set the project name
-project(ServiceManager)
-
-# Include directories
-include_directories(${CMAKE_SOURCE_DIR}/../common/include)
-
-# Source files
 set(SOURCE_FILES
     src/main.cpp
 )
 
-# Create the executable
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+add_executable(service_manager ${SOURCE_FILES})
 
-# Link with common library
-target_link_libraries(${PROJECT_NAME} common)
+target_link_libraries(service_manager PRIVATE common Threads::Threads)

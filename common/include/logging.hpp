@@ -24,4 +24,9 @@ private:
     std::string logLevelToString(LogLevel level);
 };
 
+// Global logging functions for convenience
+void log_info(const std::string& message);
+void log_warning(const std::string& message);
+void log_error(const std::string& message);
+
 #endif // LOGGING_HPP

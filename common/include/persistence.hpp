@@ -19,4 +19,7 @@ public:
     static void saveState(const std::string& filename, const nlohmann::json& state);
 };
 
+// Logging function for persistence module
+void log_error(const std::string& message);
+
 #endif // PERSISTENCE_HPP

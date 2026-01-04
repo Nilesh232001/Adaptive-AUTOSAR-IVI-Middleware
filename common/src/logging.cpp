@@ -2,26 +2,14 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include <chrono>
+#include <ctime>
 #include <iomanip>
 
-namespace Logging {
-
-void logInfo(const std::string& message) {
-    std::ofstream logFile("log.txt", std::ios_base::app);
-    if (logFile.is_open()) {
-        logFile << "[" << currentDateTime() << "] INFO: " << message << std::endl;
-    }
+Logger::Logger(const std::string& filename) {
+    logFile.open(filename, std::ios_base::app);
 }
 
-void logError(const std::string& message) {
-    std::ofstream logFile("log.txt", std::ios_base::app);
-    if (logFile.is_open()) {
-        logFile << "[" << currentDateTime() << "] ERROR: " << message << std::endl;
-    }
-}
-
-std::string currentDateTime() {
+std::string Logger::getCurrentTime() {
     auto now = std::chrono::system_clock::now();
     std::time_t nowTime = std::chrono::system_clock::to_time_t(now);
     std::tm nowTm = *std::localtime(&nowTime);
@@ -30,4 +18,44 @@ std::string currentDateTime() {
     return oss.str();
 }
 
-} // namespace Logging
+std::string Logger::logLevelToString(LogLevel level) {
+    switch (level) {
+        case LogLevel::INFO: return "INFO";
+        case LogLevel::WARNING: return "WARNING";
+        case LogLevel::ERROR: return "ERROR";
+        default: return "UNKNOWN";
+    }
+}
+
+void Logger::log(LogLevel level, const std::string& message) {
+    if (logFile.is_open()) {
+        logFile << "[" << getCurrentTime() << "] " 
+                << logLevelToString(level) << ": " 
+                << message << std::endl;
+        logFile.flush();
+    }
+}
+
+// Global logging functions for convenience
+static Logger* g_logger = nullptr;
+
+void log_info(const std::string& message) {
+    if (!g_logger) {
+        g_logger = new Logger("app.log");
+    }
+    g_logger->log(Logger::LogLevel::INFO, message);
+}
+
+void log_warning(const std::string& message) {
+    if (!g_logger) {
+        g_logger = new Logger("app.log");
+    }
+    g_logger->log(Logger::LogLevel::WARNING, message);
+}
+
+void log_error(const std::string& message) {
+    if (!g_logger) {
+        g_logger = new Logger("app.log");
+    }
+    g_logger->log(Logger::LogLevel::ERROR, message);
+}

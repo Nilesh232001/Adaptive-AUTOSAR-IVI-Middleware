@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/cmake_install.cmake",
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/common/cmake_install.cmake",
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/service_manager/cmake_install.cmake",
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/media_service/cmake_install.cmake",
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/navigation_service/cmake_install.cmake",
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/climate_service/cmake_install.cmake",
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/hmi_client/cmake_install.cmake",
+		"C:/Users/91954/Downloads/Adaptive_IVI_Middleware/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
